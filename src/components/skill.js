@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-function SkillCarousel() {
+function Skills() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -39,4 +39,4 @@ function SkillCarousel() {
   
 }
 
-export default SkillCarousel
+export default Skills
