@@ -17,8 +17,8 @@ function Welcome() {
                             typeSpeed={100}
                             hideCursorAfterText={true}
                             />
+                            <p>Aspiring Full Stack Developer</p>
                             <div className="welcome-btn-container">
-                                <a href="#projects" className="btn primary-btn">Projects</a>
                                 <a href="#contact" className="btn secodary-btn">Contact Me</a>
                             </div>
                         </div>
