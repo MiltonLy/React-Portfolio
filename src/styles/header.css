@@ -1,0 +1,29 @@
+.navbar {
+    background-color: lightgray;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar-toggler {
+    color: green !important
+}
+
+#navlinks {
+    background-color: lightgray;
+}
+
+.nav-link {
+    color: black;
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto 1rem;
+    transition: all 0.5s ease;
+}
+
+.nav-btn .active{
+    color: green !important;
+    background-color: lightgray;
+}
+

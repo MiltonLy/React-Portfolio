@@ -1,0 +1,26 @@
+.skills {
+    padding: 35px 25px;
+    background-color: white;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,-0.5);
+    height: 300px;
+    flex-direction: row;
+    /* overflow: hidden; */
+}
+
+.skill-icon {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-icon img{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+

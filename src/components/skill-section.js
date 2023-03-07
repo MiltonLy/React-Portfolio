@@ -1,5 +1,10 @@
 import React from "react";
+import '../reset.css'
+import '../styles/skill-section.css'
+
+import 'react-multi-carousel/lib/style.css'
 import "react-multi-carousel"
+
 import Skills from "./skill";
 
 function SkillSection() {

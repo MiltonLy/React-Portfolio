@@ -1,4 +1,6 @@
 import React from "react";
+import '../reset.css'
+import '../styles/welcome.css'
 import TypeWriterEffect from 'react-typewriter-effect';
 
 function Welcome() {
@@ -7,7 +9,7 @@ function Welcome() {
             <section className="welcome-section" id="home">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col welcom-text">
+                        <div className="col welcome-text">
                             <span>Hello, I'm Milton! I am a</span>
                             <TypeWriterEffect
                             textStyle={{fontFamily: "Segoe UI"}}
@@ -18,9 +20,7 @@ function Welcome() {
                             hideCursorAfterText={true}
                             />
                             <p>Aspiring Full Stack Developer</p>
-                            <div className="welcome-btn-container">
-                                <a href="#contact" className="btn secodary-btn">Contact Me</a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,34 @@
+.skillSection {
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+.skillSection row {
+    flex-wrap: no wrap;
+}
+
+.skills-container {
+    max-width: 25%;
+    padding: 0;
+}
+
+.skills {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.5;
+    color: black;
+}
+
+.skills-cont {
+    padding: 40px 20px;
+    max-width: 75%;
+}
+
+@media only screen and (max-width: 992px) {
+    .skills-container{
+        max-width: 100%;
+    }
+    .skills-cont{
+        max-width: 100%;
+    }
+}

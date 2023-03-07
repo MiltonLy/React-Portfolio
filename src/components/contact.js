@@ -1,4 +1,6 @@
 import React from "react";
+import '../reset.css'
+import '../styles/contact.css'
 import { Linkedin, Github, Envelope } from "react-bootstrap-icons"
 
 function Contact(){

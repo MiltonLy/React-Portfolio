@@ -1,14 +1,16 @@
 import React from "react";
-import { Collapse } from "bootstrap";
+import '../reset.css'
+import '../styles/header.css'
 
 function Header() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-xl">
-                    {/* Title */}
-                    <h2 className="name">Milton Ly</h2>
                     {/* Navbar */}
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collaps" data-bs-target="#navlinks" aria-controls="navlink" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler"></span>
+                    </button>
                     <div className="collapse navbar-collapse" id="navlinks">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                             <li className="nav-btn"><a className="nav-link active" aria-current="page" href="#home">Home</a></li>
