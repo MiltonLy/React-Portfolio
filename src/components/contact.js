@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin, AiFillGithub, CgMail } from "react-bootstrap-icons"
+import { Linkedin, Github, Envelope } from "react-bootstrap-icons"
 
 function Contact(){
     return (
@@ -11,13 +11,13 @@ function Contact(){
                     </div>
                     <ul className="contact-icons">
                         <li>
-                            <a href="/"><BsLinkedin/></a>
+                            <a href="/"><Linkedin/></a>
                         </li>
                         <li>
-                            <a href="/"><AiFillGithub/></a>
+                            <a href="/"><Github/></a>
                         </li>
                         <li>
-                            <a href="/"><CgMail/></a>
+                            <a href="/"><Envelope/></a>
                         </li>
                     </ul>
                 </div>
