@@ -1,10 +1,10 @@
 .skillSection {
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 70px 0;
 }
 
 .skillSection row {
-    flex-wrap: no wrap;
+    flex-wrap: wrap;
 }
 
 .skills-container {
@@ -20,8 +20,10 @@
 }
 
 .skills-cont {
-    padding: 40px 20px;
-    max-width: 75%;
+    display: block;
+    padding:0 80px;
+    max-width: 100%;
+    /* height: 200px; */
 }
 
 @media only screen and (max-width: 992px) {
@@ -30,5 +32,6 @@
     }
     .skills-cont{
         max-width: 100%;
+        /* height: 100px; */
     }
 }
